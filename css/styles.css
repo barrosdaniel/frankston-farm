@@ -1,0 +1,29 @@
+/* COLOURS */
+:root {
+  --primary: #32345C;
+  --primary-light: #4A4FA8;
+  --secondary: #385C28;
+  --secondary-light: #6CA852;
+  --third: #5C453B;
+  --black: #080808;
+  --gray-dark: #222;
+  --gray: #7F7F7F;
+  --gray-light: #DDD;
+  --white: #F6F6F6;
+}
+
+/* FONTS */
+/* Primary */
+body {
+  font-family: 'Roboto Flex', sans-serif;
+}
+
+/* Highlights */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Amatic SC', cursive;
+}
