@@ -38,10 +38,6 @@ h6 {
   background-color: var(--primary);
 }
 
-/* .logo {
-  min-width: 66px;
-} */
-
 .nav-item {
   background-color: var(--white);
   border-radius: 4px;
@@ -66,4 +62,62 @@ h6 {
 
 .nav-item.active a {
   color: var(--white);
+}
+
+/* Hero section */
+.hero-wrapper {
+  background-color: var(--primary);
+}
+
+.hero {
+  background-color: var(--white);
+}
+
+.page-title {
+  font-size: 3rem;
+}
+
+.page-subtitle {
+  font-size: 0.8rem;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .page-title {
+    font-size: 4.5rem;
+  }
+
+  .page-subtitle {
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .page-title {
+    font-size: 6rem;
+  }
+
+  .page-subtitle {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .page-title {
+    font-size: 7rem;
+  }
+
+  .page-subtitle {
+    font-size: 1.75rem;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .page-title {
+    font-size: 8rem;
+  }
+
+  .page-subtitle {
+    font-size: 2rem;
+  }
 }
