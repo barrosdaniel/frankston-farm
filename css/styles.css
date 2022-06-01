@@ -30,6 +30,11 @@ h6 {
   color: var(--primary);
 }
 
+/* UTILITIES */
+.box-shadow {
+  box-shadow: 3px 5px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
 
 
 /* INDEX PAGE*/
@@ -53,11 +58,11 @@ h6 {
 }
 
 .nav-item:hover {
-  background-color: var(--primary-light);
+  background-color: var(--secondary-light);
 }
 
 .nav-item.active {
-  background-color: var(--primary-light);
+  background-color: var(--secondary-light);
 }
 
 .nav-item.active a {
@@ -130,6 +135,33 @@ h6 {
   .page-subtitle {
     font-size: 2rem;
   }
+}
+
+/* Attractions */
+.attractions-wrapper {
+  background-color: var(--primary);
+}
+
+.attractions-title,
+.attractions-content,
+.attractions-link {
+  background-color: var(--gray-light);
+}
+
+.card {
+  border: none;
+}
+
+.attractions-link a {
+  border: 1px solid var(--secondary-light);
+  background-color: var(--secondary-light);
+  color: var(--white);
+}
+
+.attractions-link a:hover {
+  border: 1px solid var(--secondary-light);
+  background-color: var(--gray-light);
+  color: var(--secondary-light);
 }
 
 /* Location Section */
