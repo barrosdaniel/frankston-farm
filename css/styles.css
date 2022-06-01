@@ -150,3 +150,13 @@ h6 {
   width: 100%;
   min-height: 200px;
 }
+
+/* Footer */
+.footer {
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+.footer p {
+  margin: 0;
+}
