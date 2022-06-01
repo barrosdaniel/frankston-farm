@@ -131,3 +131,22 @@ h6 {
     font-size: 2rem;
   }
 }
+
+/* Location Section */
+.location-wrapper {
+  background-color: var(--primary);
+}
+
+.location-title,
+.location-content {
+  background-color: var(--gray-light);
+}
+
+.section-title {
+  font-size: 4rem;
+}
+
+.location-content iframe {
+  width: 100%;
+  min-height: 200px;
+}
