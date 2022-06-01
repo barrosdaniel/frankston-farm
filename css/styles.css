@@ -15,7 +15,8 @@
 /* FONTS */
 /* Primary */
 body {
-  font-family: 'Roboto Flex', sans-serif;
+  font-family: 'Roboto Flex', Arial, Helvetica, sans-serif;
+  color: var(--gray-dark);
 }
 
 /* Highlights */
@@ -25,5 +26,44 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Amatic SC', Verdana, Geneva, Tahoma, sans-serif;
+  color: var(--primary);
+}
+
+
+
+/* INDEX PAGE*/
+/* Navigation Bar */
+.navigation-bar-wrapper {
+  background-color: var(--primary);
+}
+
+/* .logo {
+  min-width: 66px;
+} */
+
+.nav-item {
+  background-color: var(--white);
+  border-radius: 4px;
+  border: 0;
+}
+
+.nav-item a {
+  color: var(--primary-light);
+}
+
+.nav-item a:hover {
+  color: var(--white);
+}
+
+.nav-item:hover {
+  background-color: var(--primary-light);
+}
+
+.nav-item.active {
+  background-color: var(--primary-light);
+}
+
+.nav-item.active a {
+  color: var(--white);
 }
