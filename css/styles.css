@@ -35,8 +35,6 @@ h6 {
   box-shadow: 3px 5px 10px 0px rgba(0, 0, 0, 0.75);
 }
 
-
-
 /* INDEX PAGE*/
 /* Navigation Bar */
 .navigation-bar-wrapper {
@@ -163,6 +161,19 @@ h6 {
   background-color: var(--gray-light);
   color: var(--secondary-light);
 }
+
+/* Covid Notice Section */
+.covid-wrapper {
+  background-color: var(--primary);
+}
+
+.covid-title,
+.covid-content {
+  background-color: var(--white);
+}
+
+
+
 
 /* Location Section */
 .location-wrapper {
