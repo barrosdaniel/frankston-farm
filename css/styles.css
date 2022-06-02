@@ -35,6 +35,10 @@ h6 {
   box-shadow: 3px 5px 10px 0px rgba(0, 0, 0, 0.75);
 }
 
+.border-radius {
+  border-radius: 4px;
+}
+
 /* INDEX PAGE*/
 /* Navigation Bar */
 .navigation-bar-wrapper {
@@ -172,9 +176,6 @@ h6 {
   background-color: var(--white);
 }
 
-
-
-
 /* Location Section */
 .location-wrapper {
   background-color: var(--primary);
@@ -203,6 +204,17 @@ h6 {
 .footer p {
   margin: 0;
 }
+
+/* School Section */
+.school-wrapper {
+  background-color: var(--primary);
+}
+
+.school-title,
+.school-content {
+  background-color: var(--gray-light);
+}
+
 
 /* About Section */
 .about-wrapper {
@@ -290,8 +302,6 @@ h6 {
     height: 250px;
   }
 }
-
-
 
 .img-1 {
   position: absolute;
