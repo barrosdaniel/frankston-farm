@@ -203,3 +203,25 @@ h6 {
 .footer p {
   margin: 0;
 }
+
+/* Contact Section */
+.contact-wrapper {
+  background-color: var(--primary);
+}
+
+.contact-title,
+.contact-content {
+  background-color: var(--gray-light);
+}
+
+.message-button {
+  border: 1px solid var(--secondary-light);
+  background-color: var(--secondary-light);
+  color: var(--white);
+}
+
+.message-button:hover {
+  border: 1px solid var(--secondary-light);
+  background-color: var(--gray-light);
+  color: var(--secondary-light);
+}
