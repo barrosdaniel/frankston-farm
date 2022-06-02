@@ -215,6 +215,16 @@ h6 {
   background-color: var(--gray-light);
 }
 
+/* Info Section */
+.info-wrapper {
+  background-color: var(--primary);
+}
+
+.info-title,
+.info-content {
+  background-color: var(--white);
+}
+
 
 /* About Section */
 .about-wrapper {
